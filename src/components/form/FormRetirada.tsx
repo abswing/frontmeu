@@ -1,9 +1,9 @@
 import { useState, useEffect, type ChangeEvent, type FormEvent } from "react";
-import RetiradaApiService from "../service/RetiradaApiService";
-import ClienteApiService from "../service/ClienteApiService";
-import LivroApiService from "../service/LivroApiService";
-import type { Cliente, Livro } from "../types";
-import { alertApiError } from "../service/ApiErrorHelper";
+import RetiradaApiService from "../../service/RetiradaApiService";
+import ClienteApiService from "../../service/ClienteApiService";
+import LivroApiService from "../../service/LivroApiService";
+import type { Cliente, Livro } from "../../types";
+import { alertApiError } from "../../service/ApiErrorHelper";
 
 export default function FormRetirada() {
     const [clienteid, setClienteid] = useState("");

@@ -1,7 +1,7 @@
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import LivroApiService from "../service/LivroApiService";
-import { categorias } from "./data/categories/categories";
-import { alertApiError } from "../service/ApiErrorHelper";
+import LivroApiService from "../../service/LivroApiService";
+import { categorias } from "../data/categories/categories";
+import { alertApiError } from "../../service/ApiErrorHelper";
 
 export default function FormLivros() {
     const [nome, setNome] = useState("");

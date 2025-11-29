@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import LivroApiService from "../service/LivroApiService";
-import type { Livro } from "../types";
-import { alertApiError } from "../service/ApiErrorHelper";
+import LivroApiService from "../../service/LivroApiService";
+import type { Livro } from "../../types";
+import { alertApiError } from "../../service/ApiErrorHelper";
 
 export default function ListCardLivros() {
     const [listaLivros, setListaLivros] = useState<Livro[]>([]);

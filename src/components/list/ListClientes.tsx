@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import ClienteApiService from "../service/ClienteApiService";
-import type { Cliente } from "../types";
-import { alertApiError } from "../service/ApiErrorHelper";
+import ClienteApiService from "../../service/ClienteApiService";
+import type { Cliente } from "../../types";
+import { alertApiError } from "../../service/ApiErrorHelper";
 
 export default function ListClientes() {
     const [listaClientes, setListaClientes] = useState<Cliente[]>([]);

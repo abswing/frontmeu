@@ -1,12 +1,12 @@
-import { Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import App from "./App";
 import Home from "./components/Home";
-import ListLivros from "./components/ListLivros";
-import FormLivros from "./components/FormLivros";
-import ListClientes from "./components/ListClientes";
-import FormCliente from "./components/FormCliente";
-import ListRetiradas from "./components/ListRetiradas";
-import FormRetirada from "./components/FormRetirada";
+import ListLivros from "./components/list/ListLivros";
+import FormLivros from "./components/form/FormLivros";
+import ListClientes from "./components/list/ListClientes";
+import FormCliente from "./components/form/FormCliente";
+import ListRetiradas from "./components/list/ListRetiradas";
+import FormRetirada from "./components/form/FormRetirada";
 
 export default function Router() {
     return (

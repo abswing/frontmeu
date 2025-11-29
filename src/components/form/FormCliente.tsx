@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import ClienteApiService from "../service/ClienteApiService";
-import { alertApiError } from "../service/ApiErrorHelper";
+import ClienteApiService from "../../service/ClienteApiService";
+import { alertApiError } from "../../service/ApiErrorHelper";
 
 export default function FormCliente() {
     const [nome, setNome] = useState("");
